@@ -1,0 +1,17 @@
+button {
+    transform:scale(10);
+    margin: 100px;
+    margin-left: 300px;
+    color: aqua;
+    background-color: blueviolet;
+}
+button:hover {
+   color: crimson;
+   background-color: aliceblue;
+    border-radius: 4px;
+    border-top: 3px dashed palegreen;
+    border-left: double red ;
+    border-bottom: 5px ridge orangered;
+    border-right: 3px inset blue;
+
+}
