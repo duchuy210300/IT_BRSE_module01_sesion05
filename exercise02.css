@@ -1,0 +1,36 @@
+button {
+    margin-top: 100px;
+    margin-left: 20pxx;
+    display :block;
+    transform:scaleY(3);
+     width    : 100%;
+     font-size: 150%;
+     letter-spacing:10px ;
+}
+button:nth-of-type(1):hover {
+    box-sizing: border-box;
+    border: 4px dashed red;
+    border-radius: 4px;
+    color: rgb(178, 39, 14);
+    background-color: blanchedalmond;
+}button:nth-of-type(2):hover {
+    box-sizing: border-box;
+    border: 4px ridge rgb(54, 53, 143);
+    border-radius: 4px;
+    color: rgb(175, 187, 59);
+    background-color: rgb(205, 44, 44);
+}
+button:nth-of-type(3):hover {
+    box-sizing: border-box;
+    border: 4px inset rgb(46, 173, 84);
+    border-radius: 4px;
+    color: rgb(169, 181, 32);
+    background-color: blanchedalmond;
+}
+button:nth-of-type(4):hover {
+    box-sizing: border-box;
+    border: 4px solid rgb(135, 36, 205);
+    border-radius: 4px;
+    color: rgb(38, 206, 153);
+    background-color: rgb(19, 26, 155);
+}
