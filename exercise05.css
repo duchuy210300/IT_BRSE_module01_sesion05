@@ -1,0 +1,128 @@
+div{ margin-bottom: 10px;}
+#Fade_in {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 6px solid silver;
+    width: 20%;
+    text-align: center;
+    line-height: 100px;
+    background-color: rgb(99, 91, 91);
+    color:cornsilk
+}
+#Fade_in:hover {
+    opacity: 0.8;
+}
+#Change_color{display: inline-block;
+    box-sizing: border-box;
+    border: 6px solid silver;
+    width: 20%;
+    text-align: center;
+    line-height: 100px;
+    background-color: rgb(99, 91, 91);
+    color:cornsilk
+
+}
+#Change_color:hover{
+    background-color: aqua;
+
+}
+#Grow{display: inline-block;
+    box-sizing: border-box;
+    border: 10px solid silver;
+    width: 20%;
+    text-align: center;
+    line-height: 100px;
+    background-color: rgb(99, 91, 91);
+    color:cornsilk;
+  
+
+}
+#Grow:hover{
+    transform: scale(1.02);
+    border:1px;
+    
+}
+.box{ display: inline-block;
+    box-sizing: border-box;
+    border: 10px solid silver;
+    width: 150px;
+    height:150px;
+    overflow: hidden;
+
+}
+#Shrink{ display: inline-block;
+    width: 100%;
+    height:100%;
+    text-align: center;
+    background-color: rgb(99, 91, 91);
+    color:cornsilk;
+
+}
+#Shrink:hover{
+    transform: scale(0.6);
+    transition: 4s;
+}
+
+#Rotate{display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 100px;
+    background-color: rgb(99, 91, 91);
+    color:cornsilk;
+    
+
+}
+#Rotate:hover{
+    animation: jump 3s ease forwards;
+       
+}
+@keyframes jump {
+    0% {transform: rotate(0deg);}
+    40% {transform: rotate(-45deg);}
+    45% {transform: rotate(-15deg);}
+    50% {transform: rotate(-45deg);}
+    55% {transform: rotate(-30deg);}
+    100% {transform: rotate(-45);};
+
+
+}
+#Suare_to_Circle{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1dx;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 100px;
+    background-color: rgb(99, 91, 91);
+    color:cornsilk;
+   
+    
+}
+#Suare_to_Circle:hover{
+    border-radius:70%;
+   transform: scale(0.7);
+    transition: 4s  ;
+}
+#Inset_Border{
+     display: inline-block;
+    box-sizing: border-box;
+    border: 10px solid blue;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 100px;
+    background-color: rgb(99, 91, 91);
+    color:cornsilk;
+    
+    
+}
+#Inset_Border:hover{
+    border: 1px;
+    transition: 4s  ;
+}
+
+    
