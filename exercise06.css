@@ -1,0 +1,137 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* css của ảnh 1*/
+ .web { 
+    width: 600px;
+    height:700px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border:4px solid black;
+
+   display: inline-block;
+    
+    text-align: center;
+    position:relative;
+}
+.anhnen img {
+    border-bottom: 1px solid black;
+    width: 596px;
+    height: 500px;
+    
+}
+.anhnho { 
+    width:100%;
+    font-size: 50px;
+    background-color: rgba(32, 174, 174, 0.25);
+    position:absolute;
+    top:430px;
+
+    
+
+}
+.anhnho img{
+    width: 50px;
+    height: 50px; 
+}
+.noidung {
+    width: 100%;
+    font-size:40px;
+}
+/*css ảnh thứ 2*/
+section:nth-child(2)>div{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjXgDTUzSIH4QrEr5LTVFRm3AiV3Kyj-NPdchzNzoilQ&s=10);
+    background-size: 110%;
+ }   
+.web a {
+    background-color: red;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 3px;
+    position: absolute;
+    top:20px;
+    left: 20px;
+}
+section:nth-child(2) div div:nth-child(2) {
+    font-size: 50px;
+    position:absolute;
+    top:40px;
+    right:40px;
+
+}
+section:nth-child(2) img{
+    height: 80px;
+    height:80px;
+    box-sizing: border-box;
+    border:8px solid red;
+    border-radius: 50%;
+    
+}
+.list {
+    list-style: none;
+    
+}
+.list li {
+    background-color: rgb(245, 245, 249);
+    box-sizing: border-box;
+    border:8px solid red;
+    border-radius: 50%;
+    margin: 10%;
+    
+}
+.content {
+    position: absolute;
+    bottom: 50px;
+    text-align: left;
+    font-size: 20px;
+    width: 100%;
+}
+/*css ảnh thứ 3*/
+section:nth-child(3)>div{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ2WOjjsR1OWIAYckpPxjRpKGEFzX8HEitBpkypxiA-A&s=10);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.content3{
+    color: rgb(238, 2, 2);
+    font-size: 20px;
+    font-weight: 100px;
+    text-align: left;
+    position: absolute;
+     bottom:90px;
+    left: 40px;
+
+}
+section:nth-child(3) details/*details*/{
+    width: 100%;
+    
+    color: rgb(109, 239, 86);
+    font-size: 20px;
+     font-weight: bold;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 3px;
+    position: absolute;
+    bottom:50px;
+    left: 60px;
+    display: flex;
+
+}
+section:nth-child(3) summary{
+    position: relative static;
+    list-style:none;
+   }
+
+.Explore{
+    position: absolute;
+     left: auto;
+}
+
+
